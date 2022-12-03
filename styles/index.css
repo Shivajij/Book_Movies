@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: rgb(19, 18, 18);
+  }
+  #add-money{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    height: 300px;
+    width: 400px;
+    margin-left: 500px;
+}
+  #navbar{
+    width: 98.5%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;        
+  }
+  #book_movies{
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  /* #add-money{
+    width: 50%;
+    margin: auto;
+    
+ 
+    text-align: center;
+    
+  } */
+  input{       
+    background-color: white;
+    border: 3px solid rgb(21, 21, 21);
+    padding: 4px;
+    border-radius: 10px;
+    color: rgb(15, 15, 15);
+    font-size: large;
+    
+    
+  }
+  #amount:hover{
+    width: 30%;
+    transition: width 1s;
+  }
+  button{
+    background-color: rgb(34, 83, 34);
+    font-size: large;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+
+  }
+  button:hover {
+   
+    color: rgb(15, 14, 14);
+  }
+  

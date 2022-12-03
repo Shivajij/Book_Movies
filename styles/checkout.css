@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    color: rgb(15, 15, 15);
+  }
+  #navbar{
+    width: 98.5%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;        
+  }      
+  input{       
+    background-color: white;
+    border: 3px solid rgb(70, 69, 69);
+    padding: 4px;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    
+  }
+  button{
+    background-color: rgb(42, 193, 42);
+    font-size: large;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+  }   
+  #movie{
+    width: 50%;
+ 
+    text-align: center; 
+    margin-top: 20px;
+    gap: 30px;  
+    margin-left:10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);     
+  }  
+  input:hover{
+    width: 30%;
+    transition: width 1s;
+  }
+  button:hover {
+   
+    color: rgb(32, 30, 30);
+  }
