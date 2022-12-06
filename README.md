@@ -12,10 +12,10 @@ Project  deploy Link: https://superlative-creponne-574e0b.netlify.app
 
 ## Features
 
-- input for add money first in wallet
+- input for add money in wallet
 - Search movies.
 - select movies.
-- conform movie.
+- conform movie ticket.
 
 
 
